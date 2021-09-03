@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  font-family: 'Press Start 2P', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.card{
+  color: white;
+}
+
+.skills-container{
+  font-size: 10px;
+}
+
+.experience-container{
+  font-size: 12px;
+}
+
+.about-container{
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
+.quote{
+  font-size: 50px;
+}
+
+.contact-container{
+  background-color: black;
+  padding: 20px;
+}
+
+#messageInput{
+  resize: none;
+  height: 100px;
 }
