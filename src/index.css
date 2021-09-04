@@ -10,6 +10,63 @@
   padding: 20px;
 }
 
+.profile-container{
+  width: 200px;
+  animation-name: profile-animation;
+  animation-duration: 5s;
+}
+
+@keyframes profile-animation{
+  from{
+    width: 10px;
+  }
+  to:{
+    width: 200px;
+  }
+}
+
+.email-btn{
+  animation-name: email-animation;
+  animation-duration: 5s;
+}
+
+@keyframes email-animation{
+  from{
+    font-size: 8px;
+  }
+  to:{
+    font-size: 50px;
+  }
+}
+
+.github-btn{
+  animation-name: github-animation;
+  animation-duration: 5s;
+}
+
+@keyframes github-animation{
+  from{
+    font-size: 8px;
+  }
+  to:{
+    font-size: 50px;
+  }
+}
+
+.linkedin-btn{
+  animation-name: linkedin-animation;
+  animation-duration: 5s;
+}
+
+@keyframes linkedin-animation{
+  from{
+    font-size: 8px;
+  }
+  to:{
+    font-size: 50px;
+  }
+}
+
 .card{
   color: white;
 }
@@ -28,16 +85,98 @@
   text-align: justify;
 }
 
+.skills-component{
+  animation-name: skills-animation;
+  animation-duration: 5s;
+}
+
+@keyframes skills-animation{
+  from{
+    opacity: 0;
+  }
+  to:{
+    opacity: 1;
+  }
+}
+
+.experience-component{
+  animation-name: experience-animation;
+  animation-duration: 5s;
+}
+
+@keyframes experience-animation{
+  from{
+    opacity: 0;
+  }
+  to:{
+    opacity: 1;
+  }
+}
+
+.about-component{
+  animation-name: about-animation;
+  animation-duration: 5s;
+}
+
+@keyframes about-animation{
+  from{
+    opacity: 0;
+  }
+  to:{
+    opacity: 1;
+  }
+}
+
 .quote{
   font-size: 50px;
 }
 
-.contact-container{
+.project-container{
   background-color: black;
   padding: 20px;
+  animation-name: project-animation;
+  animation-duration: 5s;
 }
 
-#messageInput{
-  resize: none;
-  height: 100px;
+@keyframes project-animation{
+  from{
+    opacity: 0;
+  }
+  to:{
+    opacity: 1;
+  }
+}
+
+.name-container{
+  animation-name: name-animation;
+  animation-duration: 5s;
+  font-size: 1.65em;
+}
+
+@keyframes name-animation{
+  from{
+    font-size: 8px;
+  }
+  to{
+    font-size: 1.65em;
+  }
+}
+
+.position-container{
+  animation-name: position-animation;
+  animation-duration: 5s;
+  font-size: 1.45em;
+}
+
+@keyframes position-animation{
+  from{
+    font-size: 8px;
+  }
+  to{
+    font-size: 1.45em;
+  }
+}
+
+.project-description{
+  font-size: 12px;
 }

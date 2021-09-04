@@ -3,7 +3,7 @@ const Body = () => {
     return (
         <div className="container">
             <div className="row text-center">
-                <div className="col-xl-4">
+                <div className="col-xl-4 skills-component">
                     <div className="card bg-dark mt-3">
                         <div className="card-header">
                             SKILLS
@@ -54,7 +54,7 @@ const Body = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-4">
+                <div className="col-xl-4 experience-component">
                     <div className="card bg-dark mt-3">
                         <div className="card-header">
                             EXPERIENCES
@@ -69,7 +69,7 @@ const Body = () => {
                                     </h2>
                                     <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div className="accordion-body text-dark">
-                                            Development of in house IT SYSTEM for DOH MMCHD. Monitoring and maintenance of
+                                            Development of in house IT Systems. Monitoring and maintenance of
                                             existing systems.
                                         </div>
                                     </div>
@@ -82,8 +82,8 @@ const Body = () => {
                                     </h2>
                                     <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div className="accordion-body text-dark">
-                                            Development, monitoring and maintenance of both IT SYSTEMS for DOH MMCHD 
-                                            and Central Office.
+                                            Planning, development, monitoring, maintenance and handling of overall process
+                                            of IT Systems.
                                         </div>
                                     </div>
                                 </div>
@@ -91,16 +91,17 @@ const Body = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-4">
+                <div className="col-xl-4 about-component">
                     <div className="card bg-dark mt-3">
                         <div className="card-header">
                             ABOUT ME
                         </div>
                         <div className="card-body">
-                            <p className="fst-italic about-container">
-                                <span className="quoute">"</span>I've been developing websites for 2 years and I loved it! I'm also fascinated by the
-                                technology progress, especially this past couple of years, that's why I take this path.
-                                Let me become a part of your team...<span className="quoute">"</span>
+                            <p className="bg-light text-dark p-1 fst-italic about-container">
+                                <span className="quoute">"</span>
+                                    I've been developing websites for 2 years and always loving it! Fascinated by technology 
+                                    advancement is the reason why I take this path. Let me be a part of your team and rock this world.
+                                <span className="quoute">"</span>
                             </p>
                         </div>
                     </div>
