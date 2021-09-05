@@ -21,7 +21,7 @@ const Footer = () => {
                                     QUEUING SYSTEM
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-primary"><i className="bi bi-arrow-right"></i></button>
+                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                                     PREVENTIVE MAINTENANCE
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-primary"><i className="bi bi-arrow-right"></i></button>
+                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                                     CIF REGISTRATION
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-primary"><i className="bi bi-arrow-right"></i></button>
+                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                                     WISH
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-primary"><i className="bi bi-arrow-right"></i></button>
+                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const Footer = () => {
                                     KMITS SYSTEM
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-primary"><i className="bi bi-arrow-right"></i></button>
+                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                                     ID SYSTEM
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-primary"><i className="bi bi-arrow-right"></i></button>
+                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>

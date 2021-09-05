@@ -1,6 +1,7 @@
 import Body from "./Body";
 import Footer from "./Footer";
 import Header from "./Header";
+import Top from "./Top";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Body />
 
       <Footer />
+      
+      <Top />
     </>
   );
 }
