@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
@@ -21,7 +22,9 @@ const Footer = () => {
                                     QUEUING SYSTEM
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
+                                    <Link to="/projects/queuing" className="btn btn-dark">
+                                        <i className="bi bi-arrow-right"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +34,9 @@ const Footer = () => {
                                     PREVENTIVE MAINTENANCE
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
+                                    <Link to="/projects/preventivemaintenance" className="btn btn-dark">
+                                        <i className="bi bi-arrow-right"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +46,9 @@ const Footer = () => {
                                     CIF REGISTRATION
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
+                                    <Link to="/projects/cif" className="btn btn-dark">
+                                        <i className="bi bi-arrow-right"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +61,9 @@ const Footer = () => {
                                     WISH
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
+                                    <Link to="/projects/wish" className="btn btn-dark">
+                                        <i className="bi bi-arrow-right"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +73,9 @@ const Footer = () => {
                                     KMITS SYSTEM
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
+                                    <Link to="/projects/kmits" className="btn btn-dark">
+                                        <i className="bi bi-arrow-right"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +85,9 @@ const Footer = () => {
                                     ID SYSTEM
                                 </div>
                                 <div className="card-body">
-                                    <button className="btn btn-dark"><i className="bi bi-arrow-right"></i></button>
+                                    <Link to="/projects/idsystem" className="btn btn-dark">
+                                        <i className="bi bi-arrow-right"></i>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

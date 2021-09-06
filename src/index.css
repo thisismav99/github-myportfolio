@@ -187,3 +187,62 @@
   bottom: 0;
   padding: 10px;
 }
+
+.projects-container{
+  padding: 120px;
+}
+
+.title-container{
+  position: relative;
+  text-decoration: underline;
+  animation-name: title-animation;
+  animation-duration: 2s;
+}
+
+@keyframes title-animation{
+  from{
+    left: -600px;
+  }
+  to{
+    left: 0;
+  }
+}
+
+.project-desc-container{
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.6;
+  animation-name: project-desc-animation;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+}
+
+@keyframes project-desc-animation{
+  from{
+    left: -600px;
+  }
+  to{
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.back-btn-container{
+  animation-name: back-btn-animation;
+  animation-duration: 5s;
+}
+
+@keyframes back-btn-animation{
+  0%{
+    transform: rotateY(50deg);
+  }
+  50%{
+    transform: rotateY(180deg);
+  }
+  100%{
+    transform: rotateY(10deg);
+  }
+}
